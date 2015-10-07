@@ -64,19 +64,3 @@ sub decode_base32_perl58($) {
 
     return pack('B*', $str);
 }
-
-#my @emails = qw(
-#  dave@seleno.net
-#  dave-@sesleno.net
-#  dave@seslenlo.net
-#  ds.ave@seslenlo.net
-#  dave@r.seslenlo.net
-#  dave@r2.seslenlo.net
-#  dave-@r2.seslenlo.net0
-#) ;
-#foreach (@emails) {
-#  print encode_base32_perl58($_), "\n";
-#  print decode_base32_perl58(encode_base32_perl58($_)), "\n";
-#}
-
-__DATA__
