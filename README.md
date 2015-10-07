@@ -27,4 +27,6 @@ Please edit the LiveScript under the *src* dir. Run `make build` and commit the 
 
 ## Release History
 
+* 0.9.1
+
 * 0.9.0 Initial release
